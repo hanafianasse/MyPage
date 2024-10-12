@@ -1,32 +1,23 @@
 import { AboutMe } from "./components/AboutMe";
+import { Skils } from "./components/Skils";
 import { Header } from "./components/Header";
-import { Section } from "./components/Section";
+import { ContactMe } from "./components/ContaactMe";
 
 function App() {
 
   return (
-    <main>
+    <main className="min-w-[320px]">
       <Header />
       <AboutMe />
-      {/* <Section title={"about me"}>About me</Section> */}
-      <Section title={"skils"}>Skils</Section>
-      <Section title={"contact me"}>Contact me</Section>
+      <Skils />
+      <ContactMe />
 
-
-      {/* <Title text={"About me"} />
-      <Title text={"Skils"} />
-      <Title text={"Contact me"} /> */}
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+      <div className="container mx-auto px-4">
+        <br />
+        <br />
+        <br />
+        <br />
+      </div>
     </main>
   );
 }
