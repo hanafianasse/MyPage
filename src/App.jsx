@@ -1,7 +1,8 @@
 import { AboutMe } from "./components/AboutMe";
 import { Skils } from "./components/Skils";
 import { Header } from "./components/Header";
-import { ContactMe } from "./components/ContaactMe";
+import { ContactMe } from "./components/ContactMe";
+import { Footer } from "./components/Footer";
 
 function App() {
 
@@ -11,13 +12,7 @@ function App() {
       <AboutMe />
       <Skils />
       <ContactMe />
-
-      <div className="container mx-auto px-4">
-        <br />
-        <br />
-        <br />
-        <br />
-      </div>
+      <Footer />
     </main>
   );
 }
