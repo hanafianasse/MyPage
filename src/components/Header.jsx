@@ -23,10 +23,18 @@ export function Header() {
                 <h1 className="font-bold md:text-[28px] lg:text-[40px] 2xl:text-[60px]">Hi, I am <span className="text-banana">Anasse HANAFI</span></h1>
                 <p className="container md:text-[16px] lg:text-[25px] 2xl:text-[40px]">Software engineer and PhD researcher specializing in IT and artificial intelligence</p>
                 <div className="mt-4 flex justify-between">
-                    <div className="mx-2"><BsLinkedin size={iconSize} /></div>
-                    <div className="mx-2"><SiScopus size={iconSize} /></div>
-                    <div className="mx-2"><IoLogoInstagram size={iconSize} /></div>
-                    <div className="mx-2"><BsGithub size={iconSize} /></div>
+                    <div className="mx-2 cursor-pointer hover:text-banana">
+                        <a href="https://www.linkedin.com/in/anasse-hanafi-86139ba8/" target="_blank"><BsLinkedin size={iconSize} /></a>
+                    </div>
+                    <div className="mx-2 cursor-pointer hover:text-banana">
+                        <a href="https://www.scopus.com/authid/detail.uri?authorId=57209134422" target="_blank"><SiScopus size={iconSize} /></a>
+                    </div>
+                    <div className="mx-2 cursor-pointer hover:text-banana">
+                        <a href="https://www.instagram.com/anasse_hanafi/" target="_blank"><IoLogoInstagram size={iconSize} /></a>
+                    </div>
+                    <div className="mx-2 cursor-pointer hover:text-banana">
+                        <a href="https://github.com/hanafianasse" target="_blank"><BsGithub size={iconSize} /></a>
+                    </div>
                 </div>
             </div>
         </div>
